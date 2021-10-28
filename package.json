@@ -1,0 +1,58 @@
+{
+  "name": "eslint-config-drmonro",
+  "version": "1.0.0",
+  "description": "ESLint shareable config",
+  "files": [
+    "es5.js",
+    "es5.5.js",
+    "es6.js",
+    "node.js",
+    "vanilla.js",
+    "react.js",
+    "react-typescript.js",
+    "index.js"
+  ],
+  "keywords": [
+    "drMonro",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "scripts": {
+    "test": "eslint test/",
+    "deploy": "npm run test && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drmonro/eslint-config-drmonro.git"
+  },
+  "author": "drMonro <rapman477@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drmonro/eslint-config-drmonro/issues"
+  },
+  "homepage": "https://github.com/drmonro/eslint-config-drmonro#readme",
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^7.24.0"
+  }
+}

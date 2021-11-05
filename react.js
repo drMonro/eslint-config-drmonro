@@ -15,7 +15,7 @@ module.exports = {
         }],
         'react/jsx-no-useless-fragment': 'error',
         'react/function-component-definition': ['error', {
-            namedComponents: 'function-declaration',
+            namedComponents: 'arrow-function',
             unnamedComponents: 'arrow-function',
         }],
         'react/jsx-wrap-multilines': 'error',

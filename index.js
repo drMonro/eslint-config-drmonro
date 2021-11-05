@@ -1,11 +1,11 @@
 module.exports = {
     depends: [
-        'htmlacademy/es5',
-        'htmlacademy/es5.5',
-        'htmlacademy/es6',
-        'htmlacademy/node',
-        'htmlacademy/vanilla',
-        'htmlacademy/react',
-        'htmlacademy/react-typescript',
+        'drmonro/es5',
+        'drmonro/es5.5',
+        'drmonro/es6',
+        'drmonro/node',
+        'drmonro/vanilla',
+        'drmonro/react',
+        'drmonro/react-typescript',
     ]
 };
